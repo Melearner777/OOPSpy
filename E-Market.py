@@ -12,7 +12,7 @@ class Emarket:
     def __repr__(self):
         return f"{self.name}:['Electronics','Groceries','Plates','Glass']"
 
-E1=Emarket("NO NAME")
+E1=Emarket("NO NAME") # Fill any word at place of no name
 
 E1.items.append('Electronics')
 E1.items.append('Plates')
